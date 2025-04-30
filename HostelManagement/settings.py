@@ -49,7 +49,7 @@ JAZZMIN_SETTINGS = {
     # "site_logo": "assets/img/logo.png",
     "welcome_sign": "Welcome to Hostel Management System",
     "copyright": "GBHCU SVNIT",
-    "show_ui_builder": True,
+    # "show_ui_builder": True,
     # "theme":"cyborg",
     
     "topmenu_links": [

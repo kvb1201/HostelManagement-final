@@ -36,3 +36,12 @@ class StudentAdmin(admin.ModelAdmin):
             obj.id
         )
     student_actions.short_description = "Actions"
+
+
+
+
+@admin.register(Complaint)
+class ComplaintAdmin(admin.ModelAdmin):
+    list_display = ('Full_Name', 'Room_Number', 'Complaint_Type', 'resolved')
+    list_filter = ('resolved', 'Complaint_Type')
+    search_fields = ('Full_Name', 'Room_Number', 'Complaint_Details')
