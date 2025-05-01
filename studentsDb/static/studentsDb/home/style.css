@@ -24,7 +24,7 @@ body {
 /* Navbar Styles */
 .nav {
     background: rgba(44, 62, 80, 0.95);
-    backdrop-filter: blur(10px);
+     backdrop-filter: blur(10px);
     padding: 0.8rem 0;
     position: sticky;
     top: 0;
