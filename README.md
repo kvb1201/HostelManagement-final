@@ -68,7 +68,4 @@ hostel_management/
 └── manage.py
 ---
 
-👤 Author
 
-Kavya Bhatiya
-B.Tech in AI | SVNIT Surat
