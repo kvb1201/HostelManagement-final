@@ -54,3 +54,21 @@ It provides different roles and interfaces for:
 ---
 
 ## 📂 Project Structure
+hostel_management/
+│
+├── hostel/                 # Main Django project settings
+├── students/               # Student app
+├── admin_panel/            # Admin/Warden app
+├── complaints/             # Complaint module
+│
+├── static/                 # CSS, JS, Images
+├── templates/              # Shared templates (base.html, login.html)
+│
+├── db.sqlite3              # Database (if using SQLite)
+└── manage.py
+---
+
+👤 Author
+
+Kavya Bhatiya
+B.Tech in AI | SVNIT Surat
